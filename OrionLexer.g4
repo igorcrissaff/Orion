@@ -1,41 +1,46 @@
 
-PROGRAM
-ENDPROGRAM
-START
-DO
-END
-LET
-FIXED
-RECORD
-OPERATION
-ROUTINE
-GIVES
-GIVE
-WHEN
-OTHERWISE
-SELECT
-MATCH
-FALLBACK
-DURING
-COUNT
-FROM
-TO
-BY
-LOOP
-STOP
-LEAVE
-SKIP
-INPUT
-OUTPUT
-ARRAY
-OF
-INTEGER
-DECIMAL
-BOOLEAN
-CHARACTER
-TEXT
-TRUE
-FALSE
-AND
-OR
-NOT
+PROGRAM: 'program';
+ENDPROGRAM: 'endprogram';
+START: 'start';
+DO: 'do';
+END: 'end';
+LET: 'let';
+FIXED: 'fixed';
+RECORD: 'record';
+OPERATION: 'operation';
+ROUTINE: 'routine';
+GIVES: 'gives';
+GIVE: 'give';
+WHEN: 'when';
+OTHERWISE: 'otherwise';
+SELECT: 'select';
+MATCH: 'match';
+FALLBACK: 'fallback';
+DURING: 'during';
+COUNT: 'count';
+FROM: 'from';
+TO: 'to';
+BY: 'by';
+LOOP: 'loop';
+STOP: 'stop';
+LEAVE: 'leave';
+SKIP: 'skip';
+INPUT: 'input';
+OUTPUT: 'output';
+ARRAY: 'array';
+OF: 'of';
+INTEGER: 'integer';
+DECIMAL: 'decimal';
+BOOLEAN: 'boolean';
+CHARACTER: 'character';
+TEXT: 'text';
+TRUE: 'true;
+FALSE: 'false;
+AND: 'and';
+OR: 'or;
+NOT: 'not';
+
+INT : [0-9]+ ;
+STRING: '"' ~('"') '"';
+ID: [a-zA-Z_][a-zA-Z_0-9]* ;
+WS: [ \t\n\r\f]+ -> skip ;
