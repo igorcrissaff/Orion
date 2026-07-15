@@ -34,10 +34,10 @@ DECIMAL: 'decimal';
 BOOLEAN: 'boolean';
 CHARACTER: 'character';
 TEXT: 'text';
-TRUE: 'true;
+TRUE: 'true';
 FALSE: 'false;
 AND: 'and';
-OR: 'or;
+OR: 'or';
 NOT: 'not';
 
 INT : [0-9]+ ;
