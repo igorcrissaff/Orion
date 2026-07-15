@@ -35,7 +35,7 @@ BOOLEAN: 'boolean';
 CHARACTER: 'character';
 TEXT: 'text';
 TRUE: 'true';
-FALSE: 'false;
+FALSE: 'false';
 AND: 'and';
 OR: 'or';
 NOT: 'not';
