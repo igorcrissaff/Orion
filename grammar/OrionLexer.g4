@@ -1,3 +1,4 @@
+lexer grammar OrionLexer;
 
 PROGRAM: 'program';
 ENDPROGRAM: 'endprogram';
